@@ -1,0 +1,44 @@
+*{
+  box-sizing: border-box;
+}
+.heading{
+  background-color: antiquewhite;
+   display: flex;
+  justify-content: center;
+  width: 8cm;
+  border-radius: 1cm;
+  margin: auto;
+  margin-top: 1cm;
+ }
+ .goalinput{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding:2cm;
+  margin: auto;
+  margin-top: 2cm;
+  width: 14cm;
+  border-radius: 3cm;
+  box-shadow: 0px 10px pink;
+  font-weight: bold;
+  font-size: 20px;
+ }
+ .input{
+  background-color:gray;
+  }
+  .button{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin-top: 1cm;
+    width: 2cm;
+    height: 1cm;
+    background-color: rgb(228, 25, 167);
+    border: 0;
+    border-radius: 10px;
+    
+  }
+text{
+  align-self: center;
+  font-weight: bold;
+}
